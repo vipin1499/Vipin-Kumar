@@ -1,0 +1,214 @@
+/*Normalization*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 90vh;
+}
+
+.rotate_rectangle {
+  width: 1100px;
+  height: 454px;
+  background-color: #8982C0;
+  opacity: 70%;
+  position: absolute;
+  right: -400px;
+  top:-100px;
+  transform: rotate(-30deg);
+  
+}
+
+.logo_nav {
+  margin: 38px 30px 0 50px;
+}
+
+.dot {
+  /*Creating a circle*/
+  height: 57px;
+  width: 57px;
+  background-color: #8982C0;
+  border-radius: 50%;
+  display: inline-block;
+  /*center text vertically and horizontally*/
+  text-align: center;
+  line-height: 57px;
+  /**/
+  /*Font-styling*/
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 29px;
+  color: #3F3D56;
+  /**/
+}
+
+.nav {
+  position: absolute;
+  right: 5%;
+  top: 50px;
+  font-family: "Ubuntu", sans-serif;
+  width: 40%;
+  margin: 7px;
+}
+
+.nav_item {
+  display: inline-block;
+  list-style: none;
+  width: 24%;
+  /*center text vertically & horizontally*/
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.contact_btn {
+  background-color: #3F3D56;
+  color: #fff;
+  border-radius: 200px;
+}
+
+.programmer{
+  width: 600px;
+  height: auto;
+  position: absolute;
+  right: 320px;
+
+}
+
+
+.intro{
+  position: relative;
+  top: 17vh;
+  left: 4%;
+}
+
+.intro_heading{
+  font-size: 40px;
+  line-height: 100px;
+}
+
+
+.intro_para{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+.view_work_btn{
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 16px;
+  border: none;
+  margin-top: 30px;
+}
+
+.socials{
+  width: 150px;
+  text-align: left;
+  position: relative;
+  right: 10px;
+  top: 40px;
+}
+
+.behance ,.linked_in ,.dribbble{
+  width: 30%;
+}
+
+.section_1{
+  width: 87%;
+  margin: 0 auto;
+  height: 80vh;
+  margin-left: 130px;
+}
+
+.section_1_heading{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.strategy_img{
+  width: 220px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.subsection{
+  width: 33%;
+  display: inline-block;
+}
+
+
+.subsection h2{
+  line-height: 50px;
+}
+
+.subsection p{
+  width: 80%;
+  line-height: 30px;
+}
+
+.section_2{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pro_img{
+  width: 45%;
+  border: 5px solid black;
+}
+
+
+.left{
+  margin: 0 40px 40px 0;
+}
+
+.right{
+  margin: 40px 0 0 40px;
+}
+
+
+.footer{
+  width: 87%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 70vh;
+}
+
+.footer_text{
+  font-size: 28px;
+}
+
+.rotate_footer_rectangle{
+  width: 570px;
+  height: 454px;
+  background-color: #8982C0;
+  opacity: 90%;
+  position: absolute;
+  bottom: -150px;
+  left: 500px;
+  
+  
+  border-top-left-radius: 4000px;
+  border-bottom-left-radius: 4000px;
+  
+}
+
+.footer_img{
+  width: 470px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+
+}
+
